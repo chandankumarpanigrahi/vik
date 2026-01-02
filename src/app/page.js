@@ -63,7 +63,7 @@ export default function Home() {
             </div>
           </section>
           <div className="flex w-full justify-center items-center fixed bottom-3 left-0 px-3">
-            <div className="flex max-fit justify-center items-center overflow-hidden rounded-full">
+            <div className="flex max-fit justify-center items-center overflow-hidden rounded-full border border-blue-200 md:hover:scale-110 transition-all duration-200">
               <button
                 onClick={handleDownload}
                 className="w-full flex items-center justify-center whitespace-nowrap gap-2 bg-blue-950 hover:bg-blue-900 text-white font-medium py-2 px-3 transition-all duration-200"
@@ -72,7 +72,7 @@ export default function Home() {
                 Save Contact
               </button>
               <Drawer>
-                <DrawerTrigger className="w-full flex items-center justify-center whitespace-nowrap gap-2 bg-blue-950 border-l-2 border-white hover:bg-blue-900 text-white font-medium py-2 px-3 transition-all duration-200">
+                <DrawerTrigger className="w-full flex items-center justify-center whitespace-nowrap gap-2 bg-blue-950 border-l border-blue-200 hover:bg-blue-900 text-white font-medium py-2 px-3 transition-all duration-200">
                   <IoMdShare className="text-lg" />
                   Share Contact
                 </DrawerTrigger>

@@ -127,14 +127,14 @@
 }
 
 ::selection {
-  background: transparent;
+  background: #3b006300;
 }
 
 .first_bg {
   background-image: url(../assets/images/brush_1.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
 .second_bg {
