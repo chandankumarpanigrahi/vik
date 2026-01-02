@@ -27,8 +27,8 @@ export default function Home() {
   const handleDownload = () => {
     try {
       const link = document.createElement('a');
-      link.href = '/sargam-pandey.vcf';
-      link.download = 'sargam-pandey.vcf';
+      link.href = '/vikas-patra.vcf';
+      link.download = 'vikas-patra.vcf';
       link.setAttribute('type', 'text/vcard');
 
       document.body.appendChild(link);
