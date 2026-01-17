@@ -24,6 +24,7 @@ import vector from "@/assets/images/vector.png"
 import avatar from "@/assets/images/avatar.png"
 import mainImage from "@/assets/images/main_avatar.png"
 import { Share } from "@/components/Design/Share";
+import { Others } from "@/components/Design/Others";
 
 export default function Home() {
   const handleDownload = () => {
@@ -45,7 +46,7 @@ export default function Home() {
   return (
     <div className="h-full lg:h-screen flex items-center justify-center bg-[#ebf5ff]  relative">
       <FlickeringGrid className="fixed inset-0 w-full" />
-      <div className="min-w-[320px] max-w-[400px] h-full px-4 relative">
+      <div className="min-w-[320px] max-w-[400px] h-full px-2 relative">
         <div className="absolute inset-0 w-full h-full flex bg-[#13365e]/95">
           <div className="h-full w-full  background_image"></div>
         </div>
@@ -54,7 +55,7 @@ export default function Home() {
             <Image src={mainImage} alt="Capt. Vikas Patra Image" className="w-[290px]" />
           </div>
           {/* <div className="flex flex-col w-full justify-center items-center  px-5 pt-3 pb-6 first_bg relative -top-3 z-20 mb-3"> */}
-          <div className="flex flex-col w-full justify-center items-center  px-3 pt-3 pb-6 relative -top-3 z-20 mb-3 bg-white rounded-xl">
+          <div className="flex flex-col w-full justify-center items-center  px-3 pt-3 pb-6 relative -top-3 z-20 mb-5 bg-white rounded-xl">
             <h1 className="text-3xl font-semibold text-blue-950 text-center">Capt. Vikas Patra</h1>
             <p className="text-center text-[14px] text-blue-900">Director, School of Maritime Studies, CUTM</p>
             <Social />
@@ -63,6 +64,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <About />
               <Profile />
+              <Others />
             </div>
           </section>
           <div className="flex w-full justify-center items-center fixed bottom-3 left-0 px-3">

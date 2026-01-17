@@ -11,7 +11,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export function Profile() {
     return (
         <>
-            <div className="relative w-full p-5 rounded-lg overflow-hidden gap-2 bg-white/95">
+            <div className="relative w-full p-5 rounded-lg overflow-hidden gap-2 bg-white">
                 {/* <div className="relative w-full px-10 pb-5 pt-7 rounded-lg overflow-hidden gap-2 third_bg"> */}
                 <h1 className="text-center font-semibold uppercase mb-3 text-blue-900 hidden">Contact Me</h1>
                 <div className="flex flex-col gap-1.5">
