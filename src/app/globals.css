@@ -130,28 +130,7 @@
   background: #3b006300;
 }
 
-.first_bg {
-  background-image: url(../assets/images/brush_1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.second_bg {
-  background-image: url(../assets/images/brush_2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.third_bg {
-  background-image: url(../assets/images/brush_3.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .background_image {
   background-image: url(../assets/images/bg.png);
-  background-size: contain;
+  background-size: 200px 200px, contain;
 }
