@@ -35,9 +35,9 @@ export function Others() {
 
 
             {/* IMarEST India Branch */}
-            <div className="relative w-full p-4 rounded-lg gap-2 bg-[#0f202c] mt-7">
+            <div className="relative w-full p-4 rounded-lg gap-2 bg-[#172c3b] mt-7">
                 <div className="flex flex-col gap-1.5 relative">
-                    <div className="absolute -top-13 bg-[#0f202c] flex justify-center items-center p-1 rounded-full">
+                    <div className="absolute -top-13 bg-[#172c3b] flex justify-center items-center p-1 rounded-full">
                         <Image src={Imarest} alt="IMarEST India Branch" className="w-[70px]" />
                     </div>
                     <div className="flex flex-col gap-1 pt-10">
