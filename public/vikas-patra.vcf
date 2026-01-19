@@ -1,17 +1,18 @@
 BEGIN:VCARD
 VERSION:3.0
-FN;CHARSET=UTF-8:Vik Patra
-N;CHARSET=UTF-8:Patra;Vik;;Capt;
+FN;CHARSET=UTF-8:Vikas Patra
+N;CHARSET=UTF-8:Patra;Vikas;;Capt.;
 EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:vik.patra@cutm.ac.in
 TEL;TYPE=HOME,VOICE:+91 8984017836
 TEL;TYPE=WORK,VOICE:+44 7501 247715
-LABEL;CHARSET=UTF-8;TYPE=WORK:Office Address
-ADR;CHARSET=UTF-8;TYPE=WORK:;;Ramchandrapur\, P.O. — Jatni;Bhubaneswar;Odisha;752050;India
+LABEL;CHARSET=UTF-8;TYPE=WORK:University Address
+ADR;CHARSET=UTF-8;TYPE=WORK:;;Ramchandrapur\, P.O. — Jatni;Bhubaneswar;Odisha ;752050;India
 ROLE;CHARSET=UTF-8:Director
-ORG;CHARSET=UTF-8:School of Maritime Studies\, Centurion University
+ORG;CHARSET=UTF-8:School of Maritime Studies\, Centurion University of Technology and Management 
 URL;type=WORK;CHARSET=UTF-8:https://maritime.cutm.ac.in/
+X-SOCIALPROFILE;TYPE=twitter:https://x.com/vik_patra
 X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/vik-patra-5b710240/
 X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/vik_patra/
 X-SOCIALPROFILE;TYPE=youtube:https://www.youtube.com/@SchoolofMaritimeStudies
-REV:2026-01-17T10:42:41.315Z
+REV:2026-01-19T09:24:58.757Z
 END:VCARD

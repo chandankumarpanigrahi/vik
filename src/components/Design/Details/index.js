@@ -19,10 +19,10 @@ export function Profile() {
                         <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
                         <a href="https://maritimehub.org" target="_blank" className="w-full">maritimehub.org</a>
                     </div>
-                    <div className="flex items-center gap-3 text-blue-900">
+                    {/* <div className="flex items-center gap-3 text-blue-900">
                         <IoGlobeOutline size={22} className="pt-0.5 opacity-70" />
                         <a href="https://maritime.cutm.ac.in/" target="_blank" className="w-full">maritime.cutm.ac.in</a>
-                    </div>
+                    </div> */}
                     <div className="flex items-center gap-3 text-blue-900">
                         <IoMailOutline size={22} className="pt-0.5 opacity-70" />
                         <a href="mailto:ceo@maritimehub.org" target="_blank" className="w-full">ceo@maritimehub.org</a>

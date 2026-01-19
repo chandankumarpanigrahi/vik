@@ -57,7 +57,8 @@ export default function Home() {
           {/* <div className="flex flex-col w-full justify-center items-center  px-5 pt-3 pb-6 first_bg relative -top-3 z-20 mb-3"> */}
           <div className="flex flex-col w-full justify-center items-center  px-3 pt-3 pb-6 relative -top-3 z-20 mb-5 bg-white rounded-xl">
             <h1 className="text-3xl font-semibold text-blue-950 text-center">Capt. Vikas Patra</h1>
-            <p className="text-center text-[14px] text-blue-900">Director, School of Maritime Studies, CUTM</p>
+            <p className="text-center text-[14px] text-blue-900 hidden">Director, School of Maritime Studies, CUTM</p>
+            <p className="text-center text-[18px] text-blue-900 leading-5.5 my-1">Master Mariner | Maritime Education & Consultancy Leader</p>
             <Social />
           </div>
           <section className="pb-18">
